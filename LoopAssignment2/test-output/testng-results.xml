@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T18:10:34 IST" name="Default suite" finished-at="2024-02-12T18:11:15 IST" duration-ms="41708">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T18:10:34 IST" name="Default test" finished-at="2024-02-12T18:11:15 IST" duration-ms="41708">
+      <class name="TestPackage.DataExtraction">
+        <test-method is-config="true" signature="Extent()[pri:0, instance:TestPackage.DataExtraction@3646a422]" started-at="2024-02-12T18:10:34 IST" name="Extent" finished-at="2024-02-12T18:10:34 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent -->
+        <test-method signature="Test(java.util.HashMap)[pri:0, instance:TestPackage.DataExtraction@3646a422]" started-at="2024-02-12T18:10:34 IST" name="Test" data-provider="data" finished-at="2024-02-12T18:11:15 IST" duration-ms="41048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TransactionPageURL=https://app.tryloop.ai/chargebacks/transactions, password=QApassword123$, URL=https://app.tryloop.ai/login/password, username=qa-engineer-assignment@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestPackage.DataExtraction@3646a422]" started-at="2024-02-12T18:11:15 IST" name="TearDown" finished-at="2024-02-12T18:11:15 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestPackage.DataExtraction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
